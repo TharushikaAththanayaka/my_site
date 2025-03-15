@@ -1,0 +1,94 @@
+.navbar {
+  height: 6rem;
+  width: 100%;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a2e; /* Dark blue background */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.navbar h2 {
+  color: #e94584; /* Pink accent color */
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  letter-spacing: 1px; /* Add spacing between letters */
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.menu a {
+  margin: 0 1.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #ffffff; /* White text */
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase; /* Uppercase text for a professional look */
+  letter-spacing: 1px;
+  position: relative;
+  text-decoration: none;
+}
+
+.menu a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #e94584; /* Pink underline */
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.menu a:hover::after {
+  width: 100%; /* Expand underline on hover */
+}
+
+.menu a:hover {
+  color: #e94584; /* Pink text on hover */
+}
+
+.menu a.active {
+  color: #e94584; /* Pink text for active link */
+  border-bottom: 2px solid #e94584; /* Pink underline for active link */
+}
+
+/* Media Query for responsiveness */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .navbar h2 {
+    font-size: 1.8rem;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu a {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,107 @@
+#education {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #1a1a2e, #16213e); /* Gradient background */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.education-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.education-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #e94584; /* Pink accent */
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.edu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.edu-card {
+  display: flex;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* Blur effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+}
+
+.edu-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.edu-details {
+  flex: 1;
+}
+
+.edu-details h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #ffffff; /* White text */
+  margin-bottom: 10px;
+}
+
+.degree {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8); /* Light white text */
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8); /* Light white text */
+  line-height: 1.8;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .edu-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .edu-img {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .education-section h1 {
+    font-size: 2rem;
+  }
+
+  .edu-details h2 {
+    font-size: 1.5rem;
+  }
+
+  .degree {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}
