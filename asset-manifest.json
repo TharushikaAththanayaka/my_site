@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/my_site/static/css/main.a54c16dc.css",
-    "main.js": "/my_site/static/js/main.44079a86.js",
+    "main.css": "/my_site/static/css/main.eb3a83c2.css",
+    "main.js": "/my_site/static/js/main.00bfa006.js",
     "static/media/uni.PNG": "/my_site/static/media/uni.2e1be89f6f6e12235d26.PNG",
-    "static/media/sereni.PNG": "/my_site/static/media/sereni.ac767e09e15dfee54db4.PNG",
-    "static/media/todolist.PNG": "/my_site/static/media/todolist.834015218f7e52e56058.PNG",
+    "static/media/tea.PNG": "/my_site/static/media/tea.fa3994dc2ddca4d66403.PNG",
     "static/media/my1.jfif": "/my_site/static/media/my1.aea10de7fb2e4af08183.jfif",
+    "static/media/task.PNG": "/my_site/static/media/task.ed9cb6d33fd7c2c5dfcb.PNG",
     "static/media/ruh.jfif": "/my_site/static/media/ruh.115f9165b4bebaf92733.jfif",
     "static/media/bmmv.jfif": "/my_site/static/media/bmmv.e708b7ce5d9ec42c048e.jfif",
     "static/media/github.jfif": "/my_site/static/media/github.5fd52f5544fb66cf4ab9.jfif",
@@ -19,14 +19,15 @@
     "static/media/vs.jfif": "/my_site/static/media/vs.19ba5286d95b3d611567.jfif",
     "static/media/js.jfif": "/my_site/static/media/js.2e4d08deef0ace62ebad.jfif",
     "static/media/sql.jfif": "/my_site/static/media/sql.aec3cc56bbafc55ebcb8.jfif",
+    "static/media/tailwind.jfif": "/my_site/static/media/tailwind.c1f9bafb3659070d58b3.jfif",
     "static/media/in.jfif": "/my_site/static/media/in.1ed67067bd2eb1df42fd.jfif",
     "static/media/figma.jfif": "/my_site/static/media/figma.7f975af0fe8beb649e4d.jfif",
     "index.html": "/my_site/index.html",
-    "main.a54c16dc.css.map": "/my_site/static/css/main.a54c16dc.css.map",
-    "main.44079a86.js.map": "/my_site/static/js/main.44079a86.js.map"
+    "main.eb3a83c2.css.map": "/my_site/static/css/main.eb3a83c2.css.map",
+    "main.00bfa006.js.map": "/my_site/static/js/main.00bfa006.js.map"
   },
   "entrypoints": [
-    "static/css/main.a54c16dc.css",
-    "static/js/main.44079a86.js"
+    "static/css/main.eb3a83c2.css",
+    "static/js/main.00bfa006.js"
   ]
 }
