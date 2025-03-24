@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <div>
       <nav className='navbar'>
-        <h2>Portfolio.</h2>
+        <h2>TPortfolio.</h2>
         <div className='menu'>
           <a href="#home" onClick={() => handleScroll('home')}>Home</a>
           <a href="#about" onClick={() => handleScroll('about')}>About</a>

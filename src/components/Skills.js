@@ -17,13 +17,9 @@ import nodeIcon from './img/nodejs.jfif';
 import phpIcon from './img/php.jfif';
 import sqlIcon from './img/sql.jfif';
 import springIcon from '../img/spring.jfif';
+import tailwind from './img/tailwind.jfif';
 
 const skillsData = {
-  Languages: [
-    { name: 'Java', icon: javaIcon },
-    { name: 'C', icon: cIcon },
-    { name: 'C#', icon: CSIcon },
-  ],
   Tools: [
     { name: 'GitHub', icon: gitIcon },
     { name: 'Figma', icon: figmaIcon },
@@ -36,12 +32,19 @@ const skillsData = {
     { name: 'JavaScript', icon: jsIcon },
     { name: 'HTML', icon: htmlIcon },
     { name: 'CSS', icon: cssIcon },
+    { name: 'TailwindCSS', icon: tailwind },
   ],
   Backend: [
     { name: 'NodeJs', icon: nodeIcon },
     { name: 'Php', icon: phpIcon },
-    { name: 'MySql', icon: sqlIcon },
     { name: 'Spring Boot', icon: springIcon },
+    { name: 'Java', icon: javaIcon },
+    { name: 'C', icon: cIcon },
+    { name: 'C#', icon: CSIcon },
+  ],
+ Database: [
+    { name: 'MySql', icon: sqlIcon },
+    
   ],
 };
 

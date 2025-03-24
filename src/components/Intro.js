@@ -13,12 +13,15 @@ export default function Intro() {
         <div className="intro-text">
           <span className="hello">Hello, I am</span>
           <span className="name">Tharushika Aththanayaka</span>
-          <h5 className="details">
-            Bachelor of Computer Science (UG)
-            <br />
-            University of Ruhuna
-          </h5>
-          <a href={"https://drive.google.com/drive/folders/1UEoUR3SeHkwahG-nPCF72w4Mce7KMPDe?usp=sharing"} download="Tharushika_Aththanayaka_Resume.pdf" className="resume-btn">
+          <div className="details">
+            <span className="job-role">Software Engineer | Frontend Web Developer </span>
+            
+          </div>
+          <a
+            href={"https://drive.google.com/drive/folders/1UEoUR3SeHkwahG-nPCF72w4Mce7KMPDe?usp=sharing"}
+            download="Tharushika_Aththanayaka_Resume.pdf"
+            className="resume-btn"
+          >
             Check Resume
           </a>
           <div className="social-links">

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css'; // Import CSS for styling
-import image1 from './img/sereni.PNG'; // Import the image
-import image2 from './img/todolist.PNG';
+import image1 from './img/tea.PNG' // Import the image
+import image2 from './img/task.PNG';
 import image3 from './img/uni.PNG';
 
 const projects = [
@@ -11,7 +11,7 @@ const projects = [
     tools: ['ReactJS', 'CSS', 'SpringBoot', 'MySql'],
     name: 'E-commerce Website (Sereni Tea)',
     caseStudy: [
-      "Developed a fully functional e-commerce platform for Sereni Tea, an online tea business. The website allows users to browse a wide range of tea products, add items to their cart, and securely complete purchases using integrated card payment functionality. Key features include a user-friendly interface, seamless checkout process, and home delivery options. Built with a focus on responsiveness and scalability, the platform ensures a smooth shopping experience across devices. This project demonstrates my expertise in web development, payment gateway integration, and user-centric design.",
+     "Developed a fully functional e-commerce platform for Sereni Tea, enabling users to browse products, add to cart, and securely complete purchases. Key features include a user-friendly interface, seamless checkout, and home delivery. Built for responsiveness and scalability, the platform ensures a smooth shopping experience across devices, showcasing expertise in web development, payment integration, and user-centric design."
     ],
     codeLink: 'https://github.com/TharushikaAththanayaka/e-commerce-FrontEnd-', // Replace with your GitHub link
   },
@@ -21,13 +21,7 @@ const projects = [
     tools: ['HTML', 'CSS', 'JavaScript'],
     name: 'To-Do-List',
     caseStudy: [
-      'The to-do list app is a user-friendly and visually appealing tool designed to help users manage their tasks efficiently. It allows users to create, organize, and track their tasks with ease, ensuring nothing important is forgotten.',
-      'Features:',
-      'Task Management: Add, and delete tasks effortlessly.',
-      'Categorization: Organize tasks into different categories for better management.',
-      'Due Dates: Set due dates for tasks to keep track of deadlines.',
-      'Task Completion: Mark tasks as complete to visually track progress.',
-      'The app was built to address the need for an efficient and intuitive way to manage daily tasks. By incorporating features like categorization, priority levels, and image attachments, the app aims to enhance productivity and organization for its users. The visually appealing design ensures that users have a pleasant experience while managing their to-do lists.',
+      'The to-do list app is a user-friendly tool designed to help users manage tasks efficiently. It allows users to create, organize, and track tasks with ease. Key features include task management (add, delete), categorization, due dates, and task completion tracking. Built to enhance productivity, the app offers an intuitive and visually appealing experience for managing daily tasks'
     ],
     codeLink: 'https://github.com/TharushikaAththanayaka/Todo-app.git', // Replace with your GitHub link
     
@@ -38,7 +32,7 @@ const projects = [
     tools: ['ReactTypeScript', 'TailwindCSS', 'MySql', 'SpringBoot'],
     name: 'Barcode-based Mail Management System',
     caseStudy: [
-      'Designed and developed a barcode-based mail tracking system to streamline mail management for our university. The system allows Super Admins to add Mail Admins and branches (university departments). Mail Admins can efficiently handle incoming and outgoing mails by scanning barcodes to input mail details, while Branch Managers can track mails specific to their departments. This centralized system enhances transparency, reduces manual errors, and improves mail processing efficiency. Key Features: Barcode scanning for quick mail entry and tracking, Role-based access: Super Admin, Mail Admin, and Branch Manager, Real-time mail status updates for each department, User-friendly interface for seamless operations.',
+      "Designed a barcode-based mail tracking system for university mail management. Super Admins can add Mail Admins and departments, while Mail Admins use barcode scanning to handle incoming/outgoing mails. Branch Managers track department-specific mails. Key features include barcode scanning, role-based access (Super Admin, Mail Admin, Branch Manager), real-time updates, and a user-friendly interface, enhancing transparency and efficiency in mail processing."
     ],
     codeLink: 'https://github.com/malinda-sampath/Barcode-Based-Mail-Tracking-System_Frontend', // Replace with your GitHub link
   },
